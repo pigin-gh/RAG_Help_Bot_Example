@@ -2,6 +2,18 @@
 
 Telegram-бот с использованием технологии RAG (Retrieval-Augmented Generation) для ответов на вопросы пользователей на основе базы знаний. Проект использует GigaChat для генерации ответов и векторный поиск для нахождения релевантной информации.
 
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/b297d9ad-93aa-4c80-af40-f59fa11dfada" width="200" style="display: inline-block; margin: 0 10px;" />
+   <img src="https://github.com/user-attachments/assets/5baf7069-e2f5-4da3-a975-34783586d991" width="200" style="display: inline-block; margin: 0 10px;" />
+   <img src="https://github.com/user-attachments/assets/cb9613a8-7dee-4488-b426-2b5dbab0b30b" width="200" style="display: inline-block; margin: 0 10px;" />
+</div>
+
+<div align="center" style="margin-top: 20px;">
+    <a href="https://t.me/ecvi_support_bot" target="_blank">
+      <strong>🤖 Перейти в бота: @ecvi_support_bot</strong>
+    </a>
+  </div>
+
 ## ✨ Особенности
 
 - 🔍 **Векторный поиск** - быстрый и точный поиск релевантной информации в базе знаний
