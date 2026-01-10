@@ -30,7 +30,13 @@ def main() -> None:
     print(f"Файл базы знаний: {knowledge_base_path}")
 
     # Создание RAGService автоматически создаст/обновит FAISS-индекс
-    _ = RAGService(str(knowledge_base_path))
+    # Используем те же параметры, что и в основном боте
+    _ = RAGService(
+        str(knowledge_base_path),
+        chunk_size=1000,
+        chunk_overlap=200,
+        use_hybrid_search=True  # Создаст BM25 индекс для гибридного поиска
+    )
 
     print("\nГотово. Индекс сохранён в каталоге `vectorstore/`.")
     print("Скопируйте папку `vectorstore/` на сервер рядом с кодом проекта.")

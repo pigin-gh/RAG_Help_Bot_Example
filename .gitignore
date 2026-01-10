@@ -45,7 +45,6 @@ Thumbs.db
 history.json
 attachments/
 *.log
+user_contexts.json
 
-# Vectorstore (optional - можно закоммитить, если хотите)
-# vectorstore/
-
+vectorstore/
